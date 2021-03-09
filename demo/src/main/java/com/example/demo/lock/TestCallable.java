@@ -25,6 +25,7 @@ public class TestCallable {
         FutureTask<Integer> futureTask = new FutureTask<>(new CallableClass());
         new Thread(futureTask,"AA").start();
 
+
         System.out.println(Thread.currentThread().getName()+"取出callable的值为："+futureTask.get());
     }
 }
