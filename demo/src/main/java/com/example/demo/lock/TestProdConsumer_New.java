@@ -1,6 +1,5 @@
-package com.example.demo;
+package com.example.demo.lock;
 
-import java.util.Queue;
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.TimeUnit;

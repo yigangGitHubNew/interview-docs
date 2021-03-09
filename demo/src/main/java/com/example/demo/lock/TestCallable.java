@@ -1,9 +1,8 @@
-package com.example.demo;
+package com.example.demo.lock;
 
 
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;
-import java.util.concurrent.Future;
 import java.util.concurrent.FutureTask;
 
 class CallableClass implements Callable<Integer>{

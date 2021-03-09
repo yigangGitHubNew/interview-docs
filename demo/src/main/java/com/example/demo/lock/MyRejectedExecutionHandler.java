@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.lock;
 
 import java.util.concurrent.RejectedExecutionHandler;
 import java.util.concurrent.ThreadPoolExecutor;
