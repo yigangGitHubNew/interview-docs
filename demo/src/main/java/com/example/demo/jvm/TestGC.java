@@ -1,6 +1,9 @@
 package com.example.demo.jvm;
 
 import java.math.BigDecimal;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 /**
@@ -9,8 +12,21 @@ import java.util.concurrent.TimeUnit;
 public class TestGC {
 
     public static void main(String[] args) throws InterruptedException {
+        List<String> strings = Arrays.asList("1","2","3","4");
+//        List<String> strings = new ArrayList<>();
+//        strings.add("1");
+//        strings.add("2");
+//        strings.add("3");
+//        strings.add("4");
+        List<String> strs1 = new ArrayList<>();
+        strs1.add("1");
+        strs1.add("2");
+        strs1.add("3");
+        System.out.println(strings.contains("6"));
+
+
         System.out.println("********************Hello GC");
-        System.out.println(new BigDecimal(0.000000D));
+//        Byte[] bytes = new Byte[1024*1024*5];
 //        TimeUnit.MILLISECONDS.sleep(Long.MAX_VALUE);
 //        querySystemParams();
     }
